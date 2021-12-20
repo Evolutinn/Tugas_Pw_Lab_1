@@ -58,3 +58,8 @@ ol,ul, img, p{
 #navbar li:hover{
 	background-color: black;
 }
+
+*{
+	margin: auto;
+	padding: auto;
+}
