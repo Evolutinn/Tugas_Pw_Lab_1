@@ -54,3 +54,7 @@ ol,ul, img, p{
 #navbar ul:last-child {
 	float: right;
 }
+
+#navbar li:hover{
+	background-color: black;
+}
