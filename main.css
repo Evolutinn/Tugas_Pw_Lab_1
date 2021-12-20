@@ -28,3 +28,25 @@ ol,ul, img, p{
 	margin-left: auto;
 
 }
+
+#navbar{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #2C394B;
+
+}
+
+
+#navbar li{
+	float: left;
+}
+
+#navbar a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
