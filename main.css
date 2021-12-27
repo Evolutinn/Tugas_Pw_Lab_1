@@ -138,3 +138,10 @@ tr:hover{
 	margin-bottom: 100px;
 
 }
+
+.form-contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
