@@ -99,3 +99,20 @@ th td{
 tr:hover{
     background-color: #9A0680;
 }
+
+
+.footer{
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+
+
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+}
