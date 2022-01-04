@@ -26,3 +26,17 @@ console.log('x++ =', x++) //menjumlahkan dengan variabel x itu sendiri maka akan
 console.log('++x =', ++x) //penambahan nilai x dan kemudian kembali x
 console.log('x-- =', x--) //kebalikan dari ++x
 console.log('--x =', --x) //kebalikan dar x++
+
+
+
+let a = 8 //membuat variabel a dengan jumlah 8
+let b = 4 //membuat variabel b dengan jumlah 4
+console.log(a, b)
+console.log('a > b =', a > b) //karena 8 lebih besar dari 4 hasilnya true 
+console.log('a < b =', a < b) //karena 8 lebih kecil dari 4 hasilnya false
+console.log('a >= b =', a >= b) //karena 8 Lebih besar atau sama dengan 4
+console.log('a <= b =', a <= b) //karena 8 Lebih kecil atau sama dengan 4
+console.log('a == b =', a == b) //karena 8 Lebih tidak sama 4
+console.log('a != b =', a != b) //karena  8 bukan sama dengan 4 
+console.log('a === b =', a === b)//karena 8 Lebih tidak sama 4
+console.log('a !== b =', a !== b)//karena  8 bukan sama dengan 4 
