@@ -119,3 +119,4 @@ console.log(3 > 2 > 1) // 3 lebih besar dari 2 menghasilkan nilai fales, false l
 console.log(null == 0) // null tidak sama dengan 0 karena null tidak memiliki nilai
 console.log(null > 0) // karena null tidak memiliki nilai sedangkan 0 memilikli arti maka hasil akhir true
 console.log(null >= 0) //karena 0 buka lebih besar sama dengan null, sedangkan null tidak memiliki arti 
+
