@@ -109,3 +109,13 @@ console.log(t_pesawat["tujuan"]);//menampilkan tujuan menggunakan metode Bracket
 console.log(t_pesawat["jumlah_tiket"]);//menampilkan jumlah_tiket menggunakan metode Bracket Notation
 console.log(t_pesawat["harga_tiket"]);//menampilkan harga_tiket menggunakan metode Bracket Notation
 console.log(t_pesawat["info_tiket"]()); //menampilkan info_tiket menggunakan metode Bracket Notation
+
+
+console.log(0.1 + 0.2 == 0.3) //hasil dari 0.1 + 0.2 = 0.300000000000000004 jika di hitung, maka tidak sama dengan 0.3 karaena itu hasilnya false
+console.log(1 + "1") //hasilnya 11 karena angka numerik di jumlahkan dengan string maka 1 + "1" = 11 
+console.log(1 - "1") //hasilnya 0 karena - merupakan pengurangan untuk numerik maka jika di kurang hasilnya 0
+console.log(1 < 2 < 3) // 1 lebih kecil dari 2 menghasilkan nilai true, true < dari 3 maka hasil akhirnya true
+console.log(3 > 2 > 1) // 3 lebih besar dari 2 menghasilkan nilai fales, false lebih besar dari 1 maka hasil akhirnya false
+console.log(null == 0) // null tidak sama dengan 0 karena null tidak memiliki nilai
+console.log(null > 0) // karena null tidak memiliki nilai sedangkan 0 memilikli arti maka hasil akhir true
+console.log(null >= 0) //karena 0 buka lebih besar sama dengan null, sedangkan null tidak memiliki arti 
