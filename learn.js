@@ -20,8 +20,8 @@ console.log(x, y) //menampilkan variabel x dan y
 console.log('x + y =', x + y) //menjumlahkan variabel x dan y
 console.log('x - y =', x - y) //mengurangi variabel dengan x dan y
 console.log('x * y =', x * y) //mengkali variabel dengan x dan y
-console.log('x / y =', x / y) //mengurangi variabel dengan x dan y
-console.log('x % y =', x % y) //membagi variabel dengan x dan y
+console.log('x / y =', x / y) //membagi variabel dengan x dan y
+console.log('x % y =', x % y) //sisa dari pembagian variabel dengan x dan y
 console.log('x++ =', x++) //menjumlahkan dengan variabel x itu sendiri maka akan menghasilkan 8
 console.log('++x =', ++x) //penambahan nilai x dan kemudian kembali x
 console.log('x-- =', x--) //kebalikan dari ++x
@@ -52,6 +52,35 @@ console.log('false || true =', false || true) //jika expression sebelah kiri set
 console.log('false || false =', false || false) //karena keduanya false
 console.log('!true =', !true)//jika expression yang diberikan setelah dievaluasi menghasilkan nilai true, maka operator akan mengembalikan false
 console.log('!false =', !false) //ika expression yang diberikan setelah dievaluasi menghasilkan nilai false, maka operator akan mengembalikan true.
+
+
+function hitungLuasPersegi(s) { //membuat fungsi hitungLuasPersegi
+    var luas = s * s //mengalikan s dengan s
+    return luas //return luas
+  }
+  var hasil = hitungLuasPersegi(5) //set nilai s menjadi 5
+  console.log(hasil) //menampilkan hasil dari hitungLuasPersegi
+
+  
+
+function luasSegitiga(a,t) { //membuat fungsi luasSegitiga
+    var l2=(a * t) / 2 //membuat variable alas*tinggi/ 2
+    return l2 //return variable l2
+  }
+  var h2=luasSegitiga(3,4) //set nilai dari a dan t
+  console.log(h2) //menampilkan hasil luas dari luasSegitiga
+
+
+
+function volumeBalok(p,l,t){ // membuat fungsi p, l, t
+      var v=(p * l * t) //membuat variable v= *l*t
+      return v //return dari v
+
+  }
+  var h3=volumeBalok(4,4,4)// set nilai dari p,l,t
+  console.log(h3) //menampilkan hasil volume dari volumeBalok
+
+
 
 
 var nh = ["Domba","Lebah","Ayam","Panda","Kuda","Lumba-Lumba"] // memebuat array
