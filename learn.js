@@ -40,3 +40,15 @@ console.log('a == b =', a == b) //karena 8 Lebih tidak sama 4
 console.log('a != b =', a != b) //karena  8 bukan sama dengan 4 
 console.log('a === b =', a === b)//karena 8 Lebih tidak sama 4
 console.log('a !== b =', a !== b)//karena  8 bukan sama dengan 4 
+
+
+console.log('true && true =', true && true) //Akan menghasilkan true jika kedua kondisi true
+console.log('true && false =', true && false)//jika expression sebelah kiri setelah dievaluasi menghasilkan nilai true, maka operator akan mengembalikan expression kedua
+console.log('false && true =', false && true)//jika expression sebelah kiri setelah dievaluasi menghasilkan nilai false, maka operator akan mengembalikan expression pertama
+console.log('false && false =', false && false)//karena keduanya false 
+console.log('true || true =', true || true)//Akan menghasilkan true jika kedua kondisi true
+console.log('true || false =', true || false) //jika expression sebelah kiri setelah dievaluasi menghasilkan nilai true, maka operator akan mengembalikan expression pertama
+console.log('false || true =', false || true) //jika expression sebelah kiri setelah dievaluasi menghasilkan nilai false, maka operator akan mengembalikan expression kedua
+console.log('false || false =', false || false) //karena keduanya false
+console.log('!true =', !true)//jika expression yang diberikan setelah dievaluasi menghasilkan nilai true, maka operator akan mengembalikan false
+console.log('!false =', !false) //ika expression yang diberikan setelah dievaluasi menghasilkan nilai false, maka operator akan mengembalikan true.
