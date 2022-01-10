@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Catch</title>
+</head>
+<body>
+    <script>
+        try{//digukanak untuk mencari error yang ada
+            var a="Rizki Hermansyah";//membuat varible a
+            document.write(a);//menampilkan a
+
+        
+
+        if(a == "Rizki"){//jika a sama dengan Rizki
+             throw "Variabel Error";//maka tamppilkan varible error
+        }
+
+    }catch (error){//menampilkan pesan error jika ada yang salah di dlam variable
+            alert(error);//menampilkan pesan menggunakan alret
+
+        }
+        finally{//mengeksekusi pesan, tetapi jika ada/ tidaak yang error maka pesan akan muncul
+            document.write("<br>Pesan Ini Akan Tetap Tampil");//tampilkan pesan 
+            
+        }
+    </script>
+    
+</body>
+</html>

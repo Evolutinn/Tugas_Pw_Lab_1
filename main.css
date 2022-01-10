@@ -125,7 +125,7 @@ tr:hover{
 
 
 .content-form{
-	max-width: 70%
+	max-width: 70%;
 	margin: auto;
 }
 
@@ -155,7 +155,7 @@ tr:hover{
 
 .my-portofolio img{
 	box-sizing: border-box;
-	width: 33.33%
+	width: 33.33%;
 	padding:25px;
 }
 

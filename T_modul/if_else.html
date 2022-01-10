@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF ELSE</title>
+</head>
+<body>
+
+    <script>
+        
+        alert("Program Menentukan Kode Jurusan"); //menampilkan "Program Menentukan Kode Jurusan"
+        var a=prompt("Masukkan Nama Anda:"); // meminta inputan promp di simpan ke variabel a
+        var b=prompt("Masukkan Kode Jurusan:(Pilih salah satu TI, HK, AK ="); // meminta inputan promp di simpan ke variabel b
+
+        if(b == "TI"){//jika b sama dengan TI maka true 
+            document.write("Welcome: ",a ,"</br>");//tampilkan nama
+            document .write("Kamu ada dijurusan = Teknologi Informatika"); //tampilkan Teknologi Informatika
+
+        }else if (b == "HK"){// jika b sama dengan HK maka true
+            document.write("Welcome: ",a ,"</br>");//tampilkan nama
+            document.write("Kamu ada dijurusan = Hukum");//tampilkan Hukum
+
+        }else if (b == "AK"){//jika b sama dengan AK maka true
+            document.write("Welcome: ",a ,"</br>"); //maka tampilkan nama
+            document.write("Kamu ada dijurusan = Akutansi");//tampilkan Akutansi
+        }else{//jika inputan tidak ada di daftar, maka false
+        document.write("<h1>Maaf Anda Salah Masukkan Kode Jurusan, Silahkan Refresh Kembali</>");//tampilkan 
+    }
+  
+        
+        
+
+
+
+
+    </script>
+
+
+
+
+    
+</body>
+</html>

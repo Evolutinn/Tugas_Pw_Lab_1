@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWICH CASE</title>
+</head>
+<body>
+    <script>
+
+        var a = prompt("MASUKKAN WARNA:") // meminta user memasukkan warna yang ingin di input
+
+        switch (a) {//swich dengan kondisi variable a
+            case "merah" && "MERAH": //jika merah dan MERAH 
+                var hasil=("#FF0000") //simpan ke variable hasil 
+                break; //berhenti
+            case "biru" && "BIRU"://jika biru dan BIRU
+                var hasil=("#0000FF") //simpan ke variable hasil 
+                break;//berhenti
+            case "abu-abu"&&"abu abu" &&"ABU-ABU"&&"ABU ABU":// abu-abu
+                var hasil=("#808080") //simpan ke variable hasil 
+                break;//berhenti
+            case "hitam"&&"HITAM": //hitam dan HITAM
+                var hasil=("#000000") //simpan ke variable hasil 
+                break;//berhenti
+            case "putih"&&"PUTIH": //putih dan PUTIH
+                var hasil=("#FFFFFF") //simpan ke variable hasil 
+                break;//berhenti
+        
+            default://jika program yangg di inputkan lain dari case maka akan masuk ke default 
+                document.write("Maaf Menu Tidak Tersedia <br>");//tampilkan pesan 
+                break;//berhenti
+        }
+
+        document.write("Kode Warna Dari "+a+(" Adalah: ")+hasil); //tampilkan vatiable a dan hasil
+
+
+    </script>
+
+    
+</body>
+</html>

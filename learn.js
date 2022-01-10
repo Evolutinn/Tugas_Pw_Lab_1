@@ -51,7 +51,7 @@ console.log('true || false =', true || false) //jika expression sebelah kiri set
 console.log('false || true =', false || true) //jika expression sebelah kiri setelah dievaluasi menghasilkan nilai false, maka operator akan mengembalikan expression kedua
 console.log('false || false =', false || false) //karena keduanya false
 console.log('!true =', !true)//jika expression yang diberikan setelah dievaluasi menghasilkan nilai true, maka operator akan mengembalikan false
-console.log('!false =', !false) //ika expression yang diberikan setelah dievaluasi menghasilkan nilai false, maka operator akan mengembalikan true.
+console.log('!false =', !false) //jika expression yang diberikan setelah dievaluasi menghasilkan nilai false, maka operator akan mengembalikan true.
 
 
 function hitungLuasPersegi(s) { //membuat fungsi hitungLuasPersegi
